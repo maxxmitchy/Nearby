@@ -1,0 +1,24 @@
+.mark {
+    -webkit-appearance: none;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 1.3rem;
+    padding-left: 0.25rem !important;
+    height: 20px;
+}
+
+.mark:checked {
+    color: green;
+}
+.mark:checked:after {
+    content: "\2714";
+    font-size: 13px;
+    font-weight: 900;
+    position: absolute;
+}
+
+.bg_milky_login {
+    background: var(--milky);
+    height: 100vh;
+}

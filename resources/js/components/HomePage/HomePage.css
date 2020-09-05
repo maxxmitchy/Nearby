@@ -1,0 +1,114 @@
+:root {
+    --primary: #df5050;
+    --secondary: #0c1b0a;
+    --tertiary: #fff;
+    --tert: #df5050c4;
+    --general_white: #fff;
+    --milky: #faf9ef;
+}
+
+.bg_milky {
+    background: var(--milky);
+    height: 100%;
+}
+.bg_primary {
+    background-color: var(--primary);
+}
+
+.bg_secondary {
+    background-color: var(--secondary);
+}
+
+.full_height {
+    height: 100vh;
+}
+
+.icon_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_item {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.button {
+    background-color: var(--secondary);
+    border-radius: 4px;
+    color: var(--general_white);
+    border: 0;
+    text-align: center;
+}
+
+.button1 {
+    background-color: var(--primary);
+    border-radius: 4px;
+    color: var(--general_white);
+    border: 0;
+    text-align: center;
+}
+
+.button_white {
+    background-color: var(--general_white);
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+    color: #000;
+}
+
+.button_primary {
+    background-color: var(--primary);
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+    color: var(--general_white);
+}
+
+.button_secondary {
+    background-color: var(--secondary);
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+    color: var(--general_white);
+}
+
+.button_outline_white {
+    border-radius: 4px;
+    color: var(--general_white);
+    border: 2px solid var(--general_white);
+    text-align: center;
+}
+
+.font-s20 {
+    font-size: 2.7rem;
+}
+
+.dots {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+}
+
+.detail {
+    bottom: 0;
+    top: 50vh;
+    background-color: var(--primary);
+}
+
+.detail1 {
+    bottom: 0;
+    top: 50vh;
+    background-color: var(--secondary);
+}
+
+.detail2 {
+    bottom: 0;
+    top: 50vh;
+    background-color: var(--tert);
+}
